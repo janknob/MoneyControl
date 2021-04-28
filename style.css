@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.prev {
+    color: #eeeeee;
+}
+html{
+    font-size: 80%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #12121f;
+    color: #eee;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.titleBox{
+    width: 108rem;
+    height: 10rem;
+    background-color: #167e56;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    font-size: 6rem;
+    margin-top: 30px;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0, 0, 0.5);
+}
+.calendar{
+    width: 45rem;
+    height: 52rem;
+    margin-left: 3rem;
+    background-color: #222227;
+    box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.4);
+    margin-top: 18rem;
+
+}
+.box {
+    width: 60rem;
+    height: 52rem;
+    background-color: #222227;
+    box-shadow: 0 0.5rem 3rem rgba(0,0,0,0.4);
+    margin-top: 18rem;
+    align-items: center;
+
+}
+.signBox i {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+}
+.inputBox input {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2rem;
+    width: 47rem;
+    font-size: 2rem;
+}
+.cycleBox select {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2rem;
+    width: 19rem;
+    font-size: 2rem;
+}
+
+.debitDayBox input {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2rem;
+    width: 19rem;
+    font-size: 2rem;
+}
+
+.row1 {
+    width: 58rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.tableBox {
+    width: 58rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    height: 28rem;
+}
+.tableCaptionBox {
+    width: 58rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.revenueBox {
+    width: 37rem;
+    background-color: #167e56;
+    height: 100%;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0, 0, 0.5);
+}
+
+.revenueBox h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2rem;
+}
+
+.tableDateBox {
+    width: 10rem;
+    background-color: #167e56;
+    height: 100%;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0, 0, 0.5);
+}
+
+.tableDateBox h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2rem;
+}
+
+.amountBox {
+    width: 10rem;
+    background-color: #167e56;
+    height: 100%;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0, 0, 0.5);
+}
+
+.amountBox h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2rem;
+}
+.tableContentBox {
+    width: 58rem;
+    height: 22rem;
+    margin-top: 0.5rem;
+    background-color: #167e56;
+}
+
+.signBox {
+    width: 4rem;
+    background-color: #167e56;
+    height: 100%;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0, 0, 0.5);
+}
+
+.budgetNumberBox {
+    width: 100%;
+    height: 8rem;
+    background-color: #167e56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0, 0, 0.5);
+    font-size: 2rem;
+}
+
+.month{
+    width: 100%;
+    height: 8rem;
+    background-color: #167e56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0, 0, 0.5);
+}
+.inputBox {
+    width: 48rem;
+    height: 100%;
+    background-color: #167e56;
+    align-items: center;
+}
+.cycleBox{
+    width: 20rem;
+    height: 100%;
+    background-color: #167e56;
+}
+
+.debitDayBox {
+    width: 20rem;
+    height: 100%;
+    background-color: #167e56;
+}
+
+.confirmBox {
+    width: 16rem;
+    height: 100%;
+    background-color: #167e56;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0, 0, 0.5);
+}
+
+.confirmBox h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2rem;
+}
+
+.month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.month i {
+    font-size: 3rem;
+
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.month p {
+    font-size: 1.6rem;
+}
+
+.weekdays {
+    width: 100%;
+    height: 5rem;
+    font-weight: bold;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.weekdays div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
+}
+
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem ;
+}
+
+.days div:hover:not(.today)
+{
+    background-color: #262626;
+    border: .2rem solid #777;
+    cursor: pointer;
+}
+
+.days div{
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(40.2rem/7);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0,0,0,0.5);
+    transition: background-color 0.2s;
+}
+
+.prev-date,.next-date{
+    opacity: 0.5;
+}
+.descriptionBox {
+    width: 100%;
+    height: 3rem;
+    background-color: #222227;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.today {
+    background-color: #167e56;
+}

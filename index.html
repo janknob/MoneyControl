@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+</head>
+<body>
+
+<div class="container">
+    <div class="titleBox">
+        <h3>MoneyControl</h3>
+    </div>
+    <div class = "box">
+        <div class="budgetNumberBox">
+            <h1>Aktuelles Budget:</h1>
+            <h1>0€</h1>
+        </div>
+        <div class="row1">
+            <div class="signBox">
+                <i class="fas fa-plus"></i>
+            </div>
+            <div class="signBox">
+                <i class="fas fa-minus"></i>
+            </div>
+            <div class="inputBox">
+                <input type="text" id="name" placeholder=" Geben Sie hier den Transaktionsnamen ein" name="name" required
+                       minlength="4" maxlength="40" size="90" >
+            </div>
+        </div>
+        <div class="row1">
+            <div class="cycleBox">
+                <select id="cycles" name="cycles">
+                    <option value="einmalig">Einmalig</option>
+                    <option value="wöchentlich">Wöchentlich</option>
+                    <option value="monatlich">Monatlich</option>
+                    <option value="jährlich">Jährlich</option>
+                </select>
+            </div>
+            <div class="debitDayBox">
+                <input type="date" id="start" name="trip-start"
+                       value=""
+                       min="2021-01-01" max="2025-12-31" >
+            </div>
+            <div class="confirmBox">
+                <h1>Speichern</h1>
+            </div>
+        </div>
+        <div class="tableBox">
+            <div class = "tableCaptionBox">
+                <div class = "revenueBox">
+                    <h1>Transaktionen</h1>
+                </div>
+                <div class="tableDateBox">
+                    <h1>Datum</h1>
+                </div>
+                <div class="amountBox">
+                    <h1>Betrag</h1>
+                </div>
+            </div>
+            <div class="tableContentBox">
+
+            </div>
+        </div>
+    </div>
+    <div class="calendar">
+        <div class="month">
+            <i class="fa fa-angle-left prev"></i>
+            <div class="date">
+                <h1></h1>
+                <p></p>
+            </div>
+            <i class="fas fa-angle-right next"></i>
+        </div>
+        <div class="weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+        </div>
+        <div class="days"></div>
+    </div>
+    <div class="descriptionBox">
+        <h3>Made by Jan Knobloch</h3>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>>
